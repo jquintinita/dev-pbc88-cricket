@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head-cont{
+    background: rgb(0,65,18);
+    background: linear-gradient(180deg, rgba(0,65,18,1) 0%, rgba(6,43,0,1) 50%, rgba(0,0,0,1) 100%);
+    width: 100%;
+    height: 65px;
+    padding: 10px 0;
+
+}
+
+.navbar{
+    max-width: 768px;
+    margin: 0 auto;
+}
+.logo{
+    max-width: 220px;
+    width: 60%;
+    height: auto;
+    align-content: center;
+}.navbar{
+    display: flex;
+    justify-content: center;
+}
+.btn-join{
+    border-radius: 5px;
+    background-color: #B21621;
+  
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffff;
+    padding: 10px 20px;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    background-color: #022813;
+}
+.bg-cont{
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+}
+.coin-one{
+    position: absolute;
+    top: 10%;
+    right: 3%;
+    max-width: 53px;
+    height: auto;
+    width: 10%;
+}
+
+.coin-two{
+    position: absolute;
+    top: 50%;
+    right:45%;
+    max-width: 53px;
+    height: auto;
+    width: 10%;
+}
+.paper-one{
+    position: absolute;
+    bottom: -5%;
+    left: 10%;
+    max-width: 172px;
+    height: auto;
+    width: 20%;
+}
+.paper-two{
+    position: absolute;
+    top: 55%;
+    right: 0%;
+    max-width: 124px;
+    height: auto;
+    width: 10%;
+}
+.dice{
+    position: absolute;
+    bottom: 27%;
+    right: 20%;
+    max-width: 30px;
+    width: 5%;
+}
+.cricket{
+    position: absolute;
+    bottom: 10%;
+    right: 30%;
+    max-width: 52px;
+    height: auto;
+    width: 7%;
+}
+.banner{
+    max-width: 100%;
+    height: auto;
+}
+.bg-three{
+    background-size: auto;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.btn-gold{
+    border-radius: 100px;
+    background: rgb(201,144,0);
+    background: linear-gradient(180deg,  rgba(247,230,0,1) 0%, rgba(181,108,0,1) 100%);
+    color: #422402;
+    padding: 15px 50px;
+    border: 1px solid #FFE500;
+    font-weight: 700;
+    text-decoration: none;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.introtext{
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 0px 40px 50px;
+    max-width: 585px;
+    margin: 0 auto;
+}
+.icon-cont{
+    background-size: auto;
+    max-width: 768px;
+    margin: 0 auto ;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding: 50px 0 15px; 
+}
+.foot-cont{
+    background-size: auto;
+    background-color: #00521C;
+    max-width: 768px;
+    margin: 5px auto  0;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    gap: 25px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo-down{
+    max-width: 83px;
+    height: auto;
+}
+img.star{
+    height: 18px;
+    width: 100px;
+    object-fit: cover;
+    object-position: 50% 45%;
+    margin-top: 10px 
+}
+.download-button{
+    background: rgb(201,144,0);
+    background: linear-gradient(180deg,  rgba(247,230,0,1) 50%, rgba(181,108,0,1) 100%);
+    font-weight: 700;
+    border-radius: 10px;
+    border: 1px solid #FFE500;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #422402;
+    text-decoration: none;
+    
+}
+.btn-gold:hover{
+    background: rgb(114, 82, 1)!important;
+    background: linear-gradient(180deg,  rgba(247,230,0,1) 0%, rgba(181,108,0,1) 100%);
+    color: #FFE500!important;
+    transition: all linear 0.2s;
+
+}
+.download-button:hover{
+    background: rgb(114, 82, 1)!important;
+    background: linear-gradient(180deg,  rgba(247,230,0,1) 0%, rgba(181,108,0,1) 100%);
+    color: #FFE500!important;
+    transition: all linear 0.2s;
+
+}
+    
+
+
+    
+
+footer{
+    background-color: #00521C;
+}
+.footer-button{
+    padding-top: 15px;
+}
+p{
+color: #ffff;
+font-size: 12px;
+}
+.textstar-cont{
+    padding: 10px;
+}
+
+element.style {
+    animation: levitate 2s linear infinite;
+}
+
+
+:root{
+    --topPostion: 0px;
+}
+@keyframes beat{
+	to { transform: scale(1.08); }
+}
+
+@keyframes levitate {
+	0% {
+		transform: translateY(calc(var(--topPostion)));
+	}
+	50% {
+		transform: translateY(calc(var(--topPostion) + 15px));
+	}
+	100% {
+		transform: translateY(calc(var(--topPostion)));
+	}
+}
+
+
+
+
+
+
+
+
