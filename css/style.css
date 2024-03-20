@@ -113,6 +113,7 @@ body{
     border: 1px solid #FFE500;
     font-weight: 700;
     text-decoration: none;
+    transition: all 0.2s linear ;
 }
 .buttons{
     display: flex;
@@ -136,6 +137,15 @@ body{
     gap: 15px;
     justify-content: center;
     padding: 50px 0 15px; 
+}
+.icon-cont a img{
+    transform: scale(1);
+    transition: all 200ms linear;
+
+}
+.icon-cont a:hover img{
+    transform: scale(1.09);
+
 }
 .foot-cont{
     background-size: auto;
@@ -170,21 +180,23 @@ img.star{
     font-size: 16px;
     color: #422402;
     text-decoration: none;
-    
+    transition: all linear 0.2s;
+    transform: scale(1);
+    display: block;
 }
 .btn-gold:hover{
     background: rgb(114, 82, 1)!important;
     background: linear-gradient(180deg,  rgba(247,230,0,1) 0%, rgba(181,108,0,1) 100%);
     color: #FFE500!important;
-    transition: all linear 0.2s;
-
+    transform: scale(1.08);
+  
 }
 .download-button:hover{
     background: rgb(114, 82, 1)!important;
     background: linear-gradient(180deg,  rgba(247,230,0,1) 0%, rgba(181,108,0,1) 100%);
     color: #FFE500!important;
-    transition: all linear 0.2s;
-
+    transform: scale(1.08);
+    
 }
     
 
