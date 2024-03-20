@@ -72,6 +72,36 @@ body{
     height: auto;
     width: 20%;
 }
+.herotitle{
+    position: absolute;
+    top: 30%;
+    left: 2%;
+    max-width: 322px;
+    width: 38%;
+}
+.herotitleOuterglow{
+    position: absolute;
+    top: 28.1%;
+    left: 0.9%;
+    max-width: 343px;
+    width: 39.9%;
+}
+.lensflare{
+    position: absolute;
+    top: 22%;
+    left: 10%;
+    max-width: 385px;
+    height: auto;
+    width: 51%;
+}
+.lensflare1{
+    position: absolute;
+    top: 40%;
+    left: -10%;
+    max-width: 385px;
+    height: auto;
+    width: 51%;
+}
 .paper-two{
     position: absolute;
     top: 55%;
@@ -125,9 +155,15 @@ body{
     display: block;
     color: #fff;
     text-align: center;
-    padding: 0px 40px 50px;
+    padding:20px 40px 50px;
     max-width: 585px;
     margin: 0 auto;
+}
+
+@media screen and (max-width: 480px) {
+    .introtext h2{
+        font-size: 20x;
+    }
 }
 .icon-cont{
     background-size: auto;
@@ -227,6 +263,10 @@ element.style {
 }
 @keyframes beat{
 	to { transform: scale(1.08); }
+}
+
+@keyframes glowing{
+	to { opacity: 0; }
 }
 
 @keyframes levitate {
